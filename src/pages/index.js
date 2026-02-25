@@ -1,7 +1,7 @@
 "use client";  // <-- penting kalau Next.js App Router
 
 import { useState, useEffect } from 'react';
-import { db } from '../firebase';  // sesuaikan path
+import { db } from '../lib/firebase';  // sesuaikan path
 import { ref, onValue, set } from "firebase/database";
 
 export default function Home() {
